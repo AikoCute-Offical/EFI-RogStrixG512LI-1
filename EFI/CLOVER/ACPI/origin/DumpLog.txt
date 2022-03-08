@@ -1,0 +1,101 @@
+7:440  6:891  Found UEFI Acpi 2.0 RSDP at 983be014
+7:440  0:000  Saving ACPI tables from RSDP 983be014 to ACPI\origin ...
+7:440  0:000   983be014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:451  0:010    (Xsdt: 983bd728, Rsdt: 983bd394)
+7:451  0:000    983bd728: 'XSDT', 'Notebook', Rev: 1, Len: 244 -> XSDT.aml
+7:457  0:006    983bd394: 'RSDT', 'Notebook', Rev: 1, Len: 140 -> RSDT.aml
+7:463  0:005    Tables in Xsdt: 26
+7:463  0:000    0. 983b1000: 'FACP', 'Notebook', Rev: 6, Len: 276 -> FACP.aml
+7:469  0:006        (Dsdt: 9836A000, Facs: 985EA000, XDsdt: 9836a000, XFacs: 0)
+7:469  0:000        9836a000: 'DSDT', 'Notebook', Rev: 2, Len: 289477 -> DSDT.aml
+7:480  0:011        985ea000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:487  0:006    1. 983bc000: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
+7:493  0:006    2. 983b9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 8365 -> SSDT-0.aml
+7:499  0:006    3. 983b8000: 'SSDT', 'ItbmSci', Rev: 2, Len: 2642 -> SSDT-1.aml
+7:506  0:006    4. 983b2000: 'SSDT', 'DptfTabl', Rev: 2, Len: 22789 -> SSDT-2.aml
+7:513  0:006    5. 98369000: 'FIDT', 'Notebook', Rev: 1, Len: 156 -> FIDT.aml
+7:519  0:006    6. 98368000: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
+7:525  0:006    7. 98367000: 'MSDM', 'Notebook', Rev: 3, Len: 85 -> MSDM.aml
+7:531  0:006    8. 98366000: 'SSDT', 'UsbCTabl', Rev: 1, Len: 267 -> SSDT-3.aml
+7:537  0:006    9. 98362000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12762 -> SSDT-4.aml
+7:544  0:006    10. 9835f000: 'SSDT', 'PegSsdt', Rev: 2, Len: 10177 -> SSDT-5.aml
+7:551  0:007    11. 9835e000: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.aml
+7:557  0:006    12. 9835d000: 'SSDT', 'CflH_Rvp', Rev: 2, Len: 3415 -> SSDT-6.aml
+7:564  0:006    13. 9835c000: 'NHLT', 'Notebook', Rev: 0, Len: 45 -> NHLT.aml
+7:571  0:007    14. 9835b000: 'LPIT', 'Notebook', Rev: 1, Len: 148 -> LPIT.aml
+7:578  0:006    15. 98357000: 'SSDT', 'PtidDevc', Rev: 2, Len: 10016 -> SSDT-7.aml
+7:584  0:006    16. 98356000: 'DBGP', 'Notebook', Rev: 1, Len: 52 -> DBGP.aml
+7:591  0:006    17. 98355000: 'DBG2', 'Notebook', Rev: 0, Len: 84 -> DBG2.aml
+7:598  0:006    18. 98353000: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-8.aml
+7:605  0:007    19. 98352000: 'BGRT', 'Notebook', Rev: 1, Len: 56 -> BGRT.aml
+7:612  0:006    20. 98351000: 'TPM2', 'Notebook', Rev: 4, Len: 76 -> TPM2.aml
+7:618  0:006    21. 98354000: 'DMAR', 'EDK2', Rev: 1, Len: 168 -> DMAR.aml
+7:625  0:006    22. 9834e000: 'SSDT', 'Opt1Tabl', Rev: 1, Len: 9056 -> SSDT-9.aml
+7:632  0:006    23. 9835a000: 'WSMT', 'Notebook', Rev: 1, Len: 40 -> WSMT.aml
+7:638  0:006    24. 9834d000: 'APIC', 'Notebook', Rev: 4, Len: 244 -> APIC.aml
+7:645  0:006    25. 9834c000: 'FPDT', 'CML', Rev: 1, Len: 68 -> FPDT.aml
+7:652  0:007    Tables in Rsdt: 26
+7:652  0:000    0. 983b1000: 'FACP', 'Notebook', Rev: 6, Len: 276
+7:652  0:000        (Dsdt: 9836A000, Facs: 985EA000, XDsdt: 9836a000, XFacs: 0)
+7:652  0:000        9836a000: 'DSDT', 'Notebook', Rev: 2, Len: 289477
+7:652  0:000        985ea000: 'FACS', Ver: 2, Len: 64
+7:652  0:000    1. 983bc000: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:652  0:000    2. 983b9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 8365
+7:652  0:000    3. 983b8000: 'SSDT', 'ItbmSci', Rev: 2, Len: 2642
+7:652  0:000    4. 983b2000: 'SSDT', 'DptfTabl', Rev: 2, Len: 22789
+7:652  0:000    5. 98369000: 'FIDT', 'Notebook', Rev: 1, Len: 156
+7:652  0:000    6. 98368000: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:652  0:000    7. 98367000: 'MSDM', 'Notebook', Rev: 3, Len: 85
+7:652  0:000    8. 98366000: 'SSDT', 'UsbCTabl', Rev: 1, Len: 267
+7:652  0:000    9. 98362000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12762
+7:652  0:000    10. 9835f000: 'SSDT', 'PegSsdt', Rev: 2, Len: 10177
+7:652  0:000    11. 9835e000: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:652  0:000    12. 9835d000: 'SSDT', 'CflH_Rvp', Rev: 2, Len: 3415
+7:652  0:000    13. 9835c000: 'NHLT', 'Notebook', Rev: 0, Len: 45
+7:652  0:000    14. 9835b000: 'LPIT', 'Notebook', Rev: 1, Len: 148
+7:652  0:000    15. 98357000: 'SSDT', 'PtidDevc', Rev: 2, Len: 10016
+7:652  0:000    16. 98356000: 'DBGP', 'Notebook', Rev: 1, Len: 52
+7:652  0:000    17. 98355000: 'DBG2', 'Notebook', Rev: 0, Len: 84
+7:652  0:000    18. 98353000: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+7:652  0:000    19. 98352000: 'BGRT', 'Notebook', Rev: 1, Len: 56
+7:652  0:000    20. 98351000: 'TPM2', 'Notebook', Rev: 4, Len: 76
+7:652  0:000    21. 98354000: 'DMAR', 'EDK2', Rev: 1, Len: 168
+7:652  0:000    22. 9834e000: 'SSDT', 'Opt1Tabl', Rev: 1, Len: 9056
+7:652  0:000    23. 9835a000: 'WSMT', 'Notebook', Rev: 1, Len: 40
+7:652  0:000    24. 9834d000: 'APIC', 'Notebook', Rev: 4, Len: 244
+7:652  0:000    25. 9834c000: 'FPDT', 'CML', Rev: 1, Len: 68
+7:652  0:000  Found UEFI Acpi 1.0 RSDP at 983be000
+7:652  0:000  Printing ACPI tables from RSDP 983be000 ...
+7:652  0:000   983be000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+7:652  0:000    (Rsdt: 983bd000)
+7:652  0:000    983bd000: 'RSDT', 'Notebook', Rev: 1, Len: 140
+7:652  0:000    Tables in Rsdt: 26
+7:652  0:000    0. 983b1000: 'FACP', 'Notebook', Rev: 6, Len: 276
+7:652  0:000        (Dsdt: 9836A000, Facs: 985EA000, XDsdt: 9836a000, XFacs: 0)
+7:652  0:000        9836a000: 'DSDT', 'Notebook', Rev: 2, Len: 289477
+7:652  0:000        985ea000: 'FACS', Ver: 2, Len: 64
+7:652  0:000    1. 983bc000: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:652  0:000    2. 983b9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 8365
+7:652  0:000    3. 983b8000: 'SSDT', 'ItbmSci', Rev: 2, Len: 2642
+7:652  0:000    4. 983b2000: 'SSDT', 'DptfTabl', Rev: 2, Len: 22789
+7:652  0:000    5. 98369000: 'FIDT', 'Notebook', Rev: 1, Len: 156
+7:652  0:000    6. 98368000: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:652  0:000    7. 98367000: 'MSDM', 'Notebook', Rev: 3, Len: 85
+7:652  0:000    8. 98366000: 'SSDT', 'UsbCTabl', Rev: 1, Len: 267
+7:652  0:000    9. 98362000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12762
+7:652  0:000    10. 9835f000: 'SSDT', 'PegSsdt', Rev: 2, Len: 10177
+7:652  0:000    11. 9835e000: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:652  0:000    12. 9835d000: 'SSDT', 'CflH_Rvp', Rev: 2, Len: 3415
+7:652  0:000    13. 9835c000: 'NHLT', 'Notebook', Rev: 0, Len: 45
+7:652  0:000    14. 9835b000: 'LPIT', 'Notebook', Rev: 1, Len: 148
+7:652  0:000    15. 98357000: 'SSDT', 'PtidDevc', Rev: 2, Len: 10016
+7:652  0:000    16. 98356000: 'DBGP', 'Notebook', Rev: 1, Len: 52
+7:652  0:000    17. 98355000: 'DBG2', 'Notebook', Rev: 0, Len: 84
+7:652  0:000    18. 98353000: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+7:652  0:000    19. 98352000: 'BGRT', 'Notebook', Rev: 1, Len: 56
+7:652  0:000    20. 98351000: 'TPM2', 'Notebook', Rev: 4, Len: 76
+7:652  0:000    21. 98354000: 'DMAR', 'EDK2', Rev: 1, Len: 168
+7:652  0:000    22. 9834e000: 'SSDT', 'Opt1Tabl', Rev: 1, Len: 9056
+7:652  0:000    23. 9835a000: 'WSMT', 'Notebook', Rev: 1, Len: 40
+7:652  0:000    24. 9834d000: 'APIC', 'Notebook', Rev: 4, Len: 244
+7:652  0:000    25. 9834c000: 'FPDT', 'CML', Rev: 1, Len: 68
