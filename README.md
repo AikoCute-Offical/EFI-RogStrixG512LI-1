@@ -1,7 +1,7 @@
 # EFI-RogStrixG512LI
 Hackintosh for ROG Strix G512LI
 
-| information                       | Mame                                              | 
+| information                       | Name                                              | 
 | ---------------------------       | -----------------------------------------         | 
 | Computer model                    | Asus RogStrix G512Li'' (UHD/GTX)                  |
 | Processor                         | Intel Core i7-10750H                              | 
